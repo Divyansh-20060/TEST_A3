@@ -10,7 +10,7 @@ class Player{
     Boolean Start_Flag = false;
     public int roll(){
         Scanner sc = new Scanner(System.in);
-        int roll =0;
+        int roll;
         System.out.print("-------------------------------------------------------" +"\n");
         System.out.print("Hit enter to roll the dice");
         sc.nextLine();
@@ -73,7 +73,7 @@ public class main {
         RLadder.Name = "Ladder Floor";
         RLadder.Points = 2;
         RLadder.Position = 8;
-        RLadder.Reward = 7;
+        RLadder.Reward = 12;
         SFP.add(RLadder.Position);
 
         Ladder Elevator = new Ladder();
